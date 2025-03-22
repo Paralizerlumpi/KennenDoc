@@ -25,7 +25,7 @@ function App() {
   const limpiarEstados = () => {
     if(respiratoriaBool)setRespiratoria(0)
     if(gastrointestinalBool)setGastrointestinal(0)
-    if(cardiovascularBool)setCardiovascularBool(0)
+    if(cardiovascularBool)setCardiovascular(0)
     if(musculoesqueleticaBool)setMusculoesqueletica(0)
     if(neurologicaBool)setNeurologica(0)
     if(dermatologicaBool)setDermatologica(0)
