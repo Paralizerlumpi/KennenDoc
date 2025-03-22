@@ -50,14 +50,14 @@ function App() {
             <Typography variant="body1" sx={{ marginLeft: 1, marginRight:1 }}>
               : {respiratoria}
             </Typography>
-            {/* <Fab
+            <Fab
               color="primary"
               aria-label="add"
               sx={{ width: 35, height: 35 }}
               onClick={() => setRespiratoria(respiratoria - 1)}
             >
               -
-            </Fab> */}
+            </Fab>
           </Box>
         </Grid>
 
@@ -75,9 +75,17 @@ function App() {
             >
               +
             </Fab>
-            <Typography variant="body1" sx={{ marginLeft: 1 }}>
+            <Typography variant="body1" sx={{ marginLeft: 1 , marginRight: 1}}>
               : {gastrointestinal}
             </Typography>
+            <Fab
+              color="primary"
+              aria-label="add"
+              sx={{ width: 35, height: 35 }}
+              onClick={() => setGastrointestinal(gastrointestinal - 1)}
+            >
+              -
+            </Fab>
           </Box>
         </Grid>
 
@@ -95,9 +103,17 @@ function App() {
             >
               +
             </Fab>
-            <Typography variant="body1" sx={{ marginLeft: 1 }}>
+            <Typography variant="body1" sx={{ marginLeft: 1 , marginRight: 1}}>
               : {cardiovascular}
             </Typography>
+            <Fab
+              color="primary"
+              aria-label="add"
+              sx={{ width: 35, height: 35 }}
+              onClick={() => setCardiovascular(cardiovascular - 1)}
+            >
+              -
+            </Fab>
           </Box>
         </Grid>
 
@@ -115,9 +131,17 @@ function App() {
             >
               +
             </Fab>
-            <Typography variant="body1" sx={{ marginLeft: 1 }}>
+            <Typography variant="body1" sx={{ marginLeft: 1 , marginRight: 1}}>
               : {musculoesqueletica}
             </Typography>
+            <Fab
+              color="primary"
+              aria-label="add"
+              sx={{ width: 35, height: 35 }}
+              onClick={() => setMusculoesqueletica(musculoesqueletica - 1)}
+            >
+              -
+            </Fab>
           </Box>
         </Grid>
 
@@ -135,9 +159,17 @@ function App() {
             >
               +
             </Fab>
-            <Typography variant="body1" sx={{ marginLeft: 1 }}>
+            <Typography variant="body1" sx={{ marginLeft: 1 , marginRight: 1}}>
               : {neurologica}
             </Typography>
+            <Fab
+              color="primary"
+              aria-label="add"
+              sx={{ width: 35, height: 35 }}
+              onClick={() => setNeurologica(neurologica - 1)}
+            >
+              -
+            </Fab>
           </Box>
         </Grid>
 
@@ -155,9 +187,17 @@ function App() {
             >
               +
             </Fab>
-            <Typography variant="body1" sx={{ marginLeft: 1 }}>
+            <Typography variant="body1" sx={{ marginLeft: 1 , marginRight: 1}}>
               : {dermatologica}
             </Typography>
+            <Fab
+              color="primary"
+              aria-label="add"
+              sx={{ width: 35, height: 35 }}
+              onClick={() => setDermatologica(dermatologica - 1)}
+            >
+              -
+            </Fab>
           </Box>
         </Grid>
 
@@ -175,9 +215,17 @@ function App() {
             >
               +
             </Fab>
-            <Typography variant="body1" sx={{ marginLeft: 1 }}>
+            <Typography variant="body1" sx={{ marginLeft: 1 , marginRight: 1}}>
               : {trastornosPsicologicos}
             </Typography>
+            <Fab
+              color="primary"
+              aria-label="add"
+              sx={{ width: 35, height: 35 }}
+              onClick={() => setTrastornosPsicologicos(trastornosPsicologicos - 1)}
+            >
+              -
+            </Fab>
           </Box>
         </Grid>
 
@@ -195,9 +243,17 @@ function App() {
             >
               +
             </Fab>
-            <Typography variant="body1" sx={{ marginLeft: 1 }}>
+            <Typography variant="body1" sx={{ marginLeft: 1 , marginRight: 1}}>
               : {otrasCausas}
             </Typography>
+            <Fab
+              color="primary"
+              aria-label="add"
+              sx={{ width: 35, height: 35 }}
+              onClick={() => setOtrasCausas(otrasCausas - 1)}
+            >
+              -
+            </Fab>
           </Box>
         </Grid>
       </Grid>
