@@ -71,12 +71,12 @@ function App() {
             <Fab
               color="primary"
               aria-label="add"
-              sx={{ width: 35, height: 35 }}
+              sx={{ width: 35, height: 35}}
               onClick={() => setRespiratoria(respiratoria + 1)}
             >
               +
             </Fab>
-            <Typography variant="body1" sx={{ marginLeft: 1, marginRight:1 }}>
+            <Typography variant="body1" fontSize={25} sx={{ marginLeft: 1, marginRight:1 }}>
               : {respiratoria}
             </Typography>
             <Fab
@@ -110,7 +110,7 @@ function App() {
             >
               +
             </Fab>
-            <Typography variant="body1" sx={{ marginLeft: 1 , marginRight: 1}}>
+            <Typography variant="body1" fontSize={25} sx={{ marginLeft: 1 , marginRight: 1}}>
               : {gastrointestinal}
             </Typography>
             <Fab
@@ -144,7 +144,7 @@ function App() {
             >
               +
             </Fab>
-            <Typography variant="body1" sx={{ marginLeft: 1 , marginRight: 1}}>
+            <Typography variant="body1" fontSize={25} sx={{ marginLeft: 1 , marginRight: 1}}>
               : {cardiovascular}
             </Typography>
             <Fab
@@ -177,7 +177,7 @@ function App() {
             >
               +
             </Fab>
-            <Typography variant="body1" sx={{ marginLeft: 1 , marginRight: 1}}>
+            <Typography variant="body1" fontSize={25} sx={{ marginLeft: 1 , marginRight: 1}}>
               : {musculoesqueletica}
             </Typography>
             <Fab
@@ -210,7 +210,7 @@ function App() {
             >
               +
             </Fab>
-            <Typography variant="body1" sx={{ marginLeft: 1 , marginRight: 1}}>
+            <Typography variant="body1" fontSize={25} sx={{ marginLeft: 1 , marginRight: 1}}>
               : {neurologica}
             </Typography>
             <Fab
@@ -243,7 +243,7 @@ function App() {
             >
               +
             </Fab>
-            <Typography variant="body1" sx={{ marginLeft: 1 , marginRight: 1}}>
+            <Typography variant="body1" fontSize={25} sx={{ marginLeft: 1 , marginRight: 1}}>
               : {dermatologica}
             </Typography>
             <Fab
@@ -276,7 +276,7 @@ function App() {
             >
               +
             </Fab>
-            <Typography variant="body1" sx={{ marginLeft: 1 , marginRight: 1}}>
+            <Typography variant="body1" fontSize={25} sx={{ marginLeft: 1 , marginRight: 1}}>
               : {trastornosPsicologicos}
             </Typography>
             <Fab
@@ -309,7 +309,7 @@ function App() {
             >
               +
             </Fab>
-            <Typography variant="body1" sx={{ marginLeft: 1 , marginRight: 1}}>
+            <Typography variant="body1" fontSize={25} sx={{ marginLeft: 1 , marginRight: 1}}>
               : {otrasCausas}
             </Typography>
             <Fab
