@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box ,Grid, Grid2, CardMedia, Typography, CardContent, Fab, Card, Checkbox, Button } from "@mui/material";
+import { Box , Grid2, CardMedia, Typography, CardContent, Fab, Card, Checkbox, Button } from "@mui/material";
 import './App.css';
 
 function App() {
